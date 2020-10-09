@@ -46,19 +46,119 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Authorization.cs" />
-    <Compile Include="ClientBank.cs" />
-    <Compile Include="MainUser.cs" />
-    <Compile Include="EmploeeBank.cs" />
-    <Compile Include="Form1.cs">
+    <Compile Include="AddMoneyPanel.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="AddMoneyPanel.Designer.cs">
+      <DependentUpon>AddMoneyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AllBankAccounts.cs" />
+    <Compile Include="ATMSys.cs" />
+    <Compile Include="Authorization.cs" />
+    <Compile Include="AutorizationPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AutorizationPanel.Designer.cs">
+      <DependentUpon>AutorizationPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="ClientAccountStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientAccountStatus.Designer.cs">
+      <DependentUpon>ClientAccountStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClientBank.cs" />
+    <Compile Include="ClientPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClientPanel.Designer.cs">
+      <DependentUpon>ClientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EmploeePanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EmploeePanel.Designer.cs">
+      <DependentUpon>EmploeePanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddAClientPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddAClientPanel.Designer.cs">
+      <DependentUpon>AddAClientPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GetMoneyPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GetMoneyPanel.Designer.cs">
+      <DependentUpon>GetMoneyPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LookMessages.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LookMessages.Designer.cs">
+      <DependentUpon>LookMessages.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUser.cs" />
+    <Compile Include="EmploeeBank.cs" />
+    <Compile Include="PayComunal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PayComunal.Designer.cs">
+      <DependentUpon>PayComunal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SendMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendMessage.Designer.cs">
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ServicePersonnel.cs" />
+    <Compile Include="UnblockClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UnblockClient.Designer.cs">
+      <DependentUpon>UnblockClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="User.cs" />
+    <EmbeddedResource Include="AddMoneyPanel.resx">
+      <DependentUpon>AddMoneyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AutorizationPanel.resx">
+      <DependentUpon>AutorizationPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientAccountStatus.resx">
+      <DependentUpon>ClientAccountStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClientPanel.resx">
+      <DependentUpon>ClientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EmploeePanel.resx">
+      <DependentUpon>EmploeePanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddAClientPanel.resx">
+      <DependentUpon>AddAClientPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GetMoneyPanel.resx">
+      <DependentUpon>GetMoneyPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LookMessages.resx">
+      <DependentUpon>LookMessages.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PayComunal.resx">
+      <DependentUpon>PayComunal.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -68,6 +168,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SendMessage.resx">
+      <DependentUpon>SendMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UnblockClient.resx">
+      <DependentUpon>UnblockClient.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
